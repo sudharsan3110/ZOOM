@@ -3,13 +3,15 @@ import React from "react";
 
 const Home = () => {
   const now = new Date();
+  const offset = now.getTimezoneOffset();
+  const localTime = new Date(now.getTime() + offset * 60000);
 
-  const time = now.toLocaleTimeString("en-US", {
+  const time = localTime.toLocaleTimeString("en-US", {
     hour: "2-digit",
     minute: "2-digit",
   });
   const date = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-    now
+    localTime
   );
 
   return (
