@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Zoom Clone Project
 
-## Getting Started
+This project follows the [JS Mastery tutorial on YouTube](https://www.youtube.com/watch?v=R8CIO1DZ2b8&ab_channel=JavaScriptMastery). It's a step-by-step guide to building a Zoom clone with Next.js and TypeScript.
 
-First, run the development server:
+## Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project replicates Zoom, built with Next.js and TypeScript. Users can log in, create meetings, and use features like recording, screen sharing, and participant management.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js
+- TypeScript
+- Clerk
+- getstream
+- Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Authentication:** Secure login with Clerk.
+- **New Meeting:** Start meetings with configurable settings.
+- **Meeting Controls:** Manage recording, screen sharing, and participants.
+- **Exit Meeting:** Leave or end meetings.
+- **Schedule Meetings:** Schedule future meetings.
+- **Past Meetings:** Access and view recordings of past meetings.
+- **Personal Room:** Unique meeting link for instant meetings.
+- **Join Meetings:** Join via link.
+- **Responsive Design:** Optimized for all devices.
 
-To learn more about Next.js, take a look at the following resources:
+## Quick Start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Git
+- Node.js
+- npm
 
-## Deploy on Vercel
+### Original Repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The original repository for this tutorial can be found [here](https://github.com/adrianhajdin/zoom-clone/tree/main)
